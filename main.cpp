@@ -18,14 +18,14 @@ int main(){
 
     int userchoise, computerchoise = randomNumber;
 
-    // User choise
+    // User choice
     do{
-        cout<<"Enter your choise (1 - Rock, 2-Paper, 3-Scissor):";
+        cout<<"Enter your choice (1 - Rock, 2-Paper, 3-Scissor):";
         cin>>userchoise;
     } while (userchoise < 1 || userchoise > 3);
 
     // Displaying user and computer choise for better experience
-    cout<<"Your Chose: ";
+    cout<<"Your Choce: ";
     switch (userchoise){
     case 1:
         cout<<"Rock\t";
@@ -37,7 +37,7 @@ int main(){
         cout<<"Scissor\t";
         break;
     }
-    cout<<"Computer Chose: ";
+    cout<<"Computer Choce: ";
     switch (computerchoise){
     case 1:
         cout<<"Rock\t";
